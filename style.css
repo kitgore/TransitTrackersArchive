@@ -18,6 +18,11 @@ body, html{
     font-family: 'Telegraf', sans-serif;
     background-color: #FFF0E5;
 }
+
+section {
+    padding-top: 1px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -30,11 +35,18 @@ body, html{
     top: 0;
     z-index: 1000;
 }
-.logo {
+.logo a{
     font-weight: bold;
     font-size: 1.5rem;
     text-transform: uppercase;
+    text-decoration: none;
+    color: black;
 }
+
+.logo:hover{
+    text-decoration: none;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
