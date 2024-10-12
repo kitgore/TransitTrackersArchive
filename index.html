@@ -12,14 +12,13 @@
         <script src="script.js" async defer></script>
         <nav class="navbar">
             <div class="logo">
-                <a href="#top">Transit<br/>Trackers</a>
+                <a data-scroll-to="top">Transit<br/>Trackers</a>
             </div>
             <div class="nav-links">
-                <a href="#team">Team</a>
-                <a href="#project-details">Project Details</a>
-                <a href="#sponsor">Sponsor</a>
-                <a href="#documents">Documents</a>
-                <a href="#codebase">Codebase</a>
+                <a data-scroll-to="team">Team</a>
+                <a data-scroll-to="project-details">Project Details</a>
+                <a data-scroll-to="documents">Documents</a>
+                <a data-scroll-to="codebase">Codebase</a>
             </div>
         </nav>
         <section id="home">
@@ -37,7 +36,8 @@
                     </div>
                     <div class="member-info">
                         <h2 class="team-member-name">Drake<br/>Stanton</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                        <h3>Team Lead<br/>Release Manager</h3>
+                        <p><b>•</b> HTML, Javascript, CSS, Python, C<br/><b>•</b> Project management/Leadership</p>
                     </div>
                 </div>
                 <div class="team-member">
@@ -46,7 +46,8 @@
                     </div>
                     <div class="member-info">
                         <h2 class="team-member-name">Ben<br/>Griepp</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                        <h3>Quality Assurance</h3>
+                        <p><b>•</b> Web programming with Javascript and NodeJS<br/><b>•</b> Frontend Web Frameworks<br/><b>•</b> Design with Adobe Suite and Figma</p>
                     </div>
                 </div>
                 <div class="team-member">
@@ -55,7 +56,8 @@
                     </div>
                     <div class="member-info">
                         <h2 class="team-member-name">Lauren<br/>Bushman</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                        <h3>Quality Assurance</h3>
+                        <p><b>•</b> Web programming with Javascript and NodeJS<br/><b>•</b> Database system management with Python and MySQL<br/><b>•</b> C, C++, Python, and Java programming</p>
                     </div>
                 </div>
                 <div class="team-member">
@@ -64,13 +66,13 @@
                     </div>
                     <div class="member-info">
                         <h2 class="team-member-name">Alonso<br/>Jimenez<br/>Alamilla</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                        <h3>Recorder</h3>
+                        <p><b>•</b> Web programming with Javascript<br/><b>•</b> Database system management with Python<br/><b>•</b> C, C++, C#</p>
                     </div>
                 </div>
             </div>
         </section>
         <section id="sponsor">
-            <h1>Sponsor</h1>
             <div class="sponsor-container">
                 <div class="sponsor-card">
                     <div class="sponsor-image">
@@ -78,13 +80,56 @@
                     </div>
                     <div class="sponsor-info">
                         <h2>NAU<br>Shuttle<br>Services</h2>
+                        <p><b>Sponsor</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor-container">
+                <div class="sponsor-card">
+                    <div class="mentor-image">
+                        <img src="assets/pauldeasy.jpg" alt="NAU Shuttle Services">
+                    </div>
+                    <div class="sponsor-info">
+                        <h2>Paul<br>Deasy<br></h2>
+                        <p><b>Mentor</b></p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="content">
-            <h2>Content Section</h2>
-        </div>
+        <section id="project-details">
+            <h1 class="team-header">Project Details</h1>
+            <div class="large-card-container">
+                <div class="large-card">
+                    <div class="coming-soon-content">
+                        <h3>🚧 Coming Soon 🚧</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="documents">
+            <h1 class="team-header">Documents</h1>
+            <div class="large-card-container">
+                <div class="large-card">
+                    <div class="coming-soon-content">
+                        <h3>🚧 Coming Soon 🚧</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="codebase">
+            <h1 class="team-header">Codebase</h1>
+            <div class="large-card-container">
+                <div class="large-card">
+                    <div class="coming-soon-content">
+                        <h3>🚧 Coming Soon 🚧</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Have a nice day!
+        </footer>
     </body>
 </html>
