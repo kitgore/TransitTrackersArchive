@@ -188,7 +188,7 @@ h1{
 }
 
 .member-info p {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.4;
     margin-top: .5em;
     margin-bottom: 0;
@@ -303,6 +303,33 @@ h1{
     width: 90%;
 }
 
+.large-card-invis {
+    background-color: transparent;
+    border-radius: 0.95rem;
+    border: var(--border-unit1) solid transparent;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 0.5rem transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 1rem;
+    margin-top: 0;
+    width: 90%;
+}
+
+.medium-card {
+    background-color: var(--card-background);
+    border-radius: 0.95rem;
+    border: var(--border-unit1) solid black;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 1rem;
+    width: 75%;
+}
+
 .coming-soon-content{
     width: 100%;
     height: 40vh;
@@ -349,6 +376,47 @@ footer{
     }
 }
 
+.project-details-container {
+    padding: 3rem;
+    padding-right: 3.5rem;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.project-section {
+    margin-bottom: 2rem;
+}
+
+.project-section:last-child {
+    margin-bottom: 0;
+}
+
+.project-section h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+    color: black;
+}
+
+.project-section p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 0;
+    color: black;
+}
+
+@media (max-width: 48rem) {
+    .project-details-container {
+        padding: 1.5rem;
+        width: calc(100% - 2rem);
+    }
+    
+    .project-section h2 {
+        font-size: 2.5rem;
+    }
+}
+
 .grid-sections-doc {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -386,6 +454,13 @@ footer{
     margin-bottom: 1rem;
 }
 
+.grid-icon2 {
+    width: 60%;
+    height: auto;
+    margin-top: 7.5%;
+    margin-bottom: calc(7.5% + 1rem);
+}
+
 .grid-title {
     font-size: 1.8rem;
     font-weight: bold;
@@ -419,8 +494,8 @@ footer{
 .grid-sections-code {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 2rem;
+    gap: 1rem;
+    padding: 1rem;
     width: 100%;
     box-sizing: border-box;
 }
@@ -435,6 +510,7 @@ footer{
     transition: transform 0.2s, box-shadow 0.2s;
     height: auto;
     display: block;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
 }
 
 .grid-item-content-code {
@@ -457,7 +533,7 @@ footer{
     display: flex;
     gap: 1rem;
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
 }
 
 .grid-icons-container a {
@@ -467,7 +543,7 @@ footer{
 }
 
 .grid-icons-container a:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .grid-icon-code-git {
